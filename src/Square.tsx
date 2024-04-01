@@ -2,7 +2,8 @@
 
 type props = { 
   index: number,
-  onClick(event:any): void
+  // onClick(event: any): void
+  onClick:(event: any ) => void;
     player?: string;
 }
 
